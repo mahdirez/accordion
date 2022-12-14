@@ -1,0 +1,63 @@
+@font-face {
+    font-family: iran;
+    src: url(../public/Vazir-Medium.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    direction: rtl;
+    font-family: 'iran';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: mediumpurple;
+}
+
+.box{
+    width: 700px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.content{
+    margin-top: 15px;
+    background-color: rgb(194, 193, 193);
+    padding: 15px;
+}
+
+.content .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+}
+
+.content button{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: none;
+}
+
+.info{
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(61, 61, 61);
+}
